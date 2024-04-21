@@ -1,0 +1,31 @@
+@import 'abstracts/functions';
+@import 'abstracts/mixin';
+@import 'abstracts/variables';
+@import 'abstracts/cy';
+
+@import 'base/animations';
+@import 'base/base';
+@import 'base/thypography';
+@import 'base/containers';
+@import 'base/utilities';
+
+@import 'layout/footer';
+@import 'layout/grid';
+@import 'layout/navbar';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/navigation';
+
+@import 'components/newbenefits';
+@import 'components/cards';
+@import 'components/form';
+@import 'components/news';
+@import 'components/ranking';
+@import 'components/shops';
+
+
+@import 'pages/home.scss';
+
+
+
+

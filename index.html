@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matias Bueno">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- CONSULTAR  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- CONSULTAR  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/jpg" href="assets/img/logos/logo FrontEnd.png" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Blog FrontEnd</title>
+</head>
+
+<body class="body_html">
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <!-- USÉ CLASE LOGO PARA USAR LA MISMA MODIFICACION DE CSS EN EL NAV Y EN EL FOOTER -->
+                    <img class="logo--img" src="assets/img/logos/adl.png" alt="logo">
+                    <h1 class="logo--text">Blog FrontEnd</h1>
+                </div>
+                <div>
+                    <ul class="nav">
+                        <li class="navbuton">
+                            <a href="./">Home</a>
+                        </li>
+                        <li class="navbuton">
+                            <a href="#">Login</a>
+                        </li>
+                        <li class="navbuton">
+                            <a href="registro.html">Registro</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <section class="section1"> <!-- CONTENEDOR DE TODA LA SECTION1 -->
+        <h2 class="section1_novedades--title">Novedades</h2>
+        <div class="container--cards">
+            <div> <!-- CONTENEDOR DE LA MITAD IZQUIERDA DE LA SECTION1 -->
+                <div class="section1_container1">
+                    <a class="bootstrap.html" href="bootstrap.html"><img class="container1--img"
+                            src="assets/img/posts/bootstrap.png" alt="bootstrap"></a>
+                    <p class="section1_container1--date">24 Noviembre, 2022</p>
+                    <h3 class="section1_container1--title">Modifica el tema de Bootstrap con cariables CSS</h3>
+                </div>
+                <div class="section1_container1--pie"> <!-- CONTENEDOR DE LA FIRMA CON LOGO Y TEXTO DE DESAFIO LATAM -->
+                    <img class="section1_container1_pie--logo" src="assets/img/logos/adl.png" alt=" logo desafio latam">
+                    <p class="section1_container1__pie_logo_text">Desafío Latam</p>
+                </div>
+            </div>
+            <div class="section1_container2"> <!-- CONTENEDOR DE LA MITAD DERECHA DEL SECTION1 -->
+                <div class="section1_container2--card">
+                    <img class="card--img" src="assets/img/posts/Herencia-JS.png" alt="Herencia">
+                    <div class="section1_container2_card">
+                        <!-- CONTENEDOR DE CADA CARTA DE LA MITAD DERECHA DEL SECTION1 -->
+                        <p class="section1_container2_card--date">24 Noviembre, 2022</p>
+                        <h3 class="section1_container2_card--title">Herencia en JavaScript</h3>
+                        <div class="foot"> <!-- CLASE FOOT PARA USARLA EN TODOS LOS ELEMENTOS POSTERIORES -->
+                            <img class="card_pie--img" src="assets/img/logos/adl.png" alt="Logo Desafío Latam">
+                            <!-- CLASE CARD_PIE PARA TODOS LOS PIE DE PAGINA DE LAS CARTAS POSTERIORES -->
+                            <p class="card_pie--text">Desafío Latam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section1_container2--card">
+                    <img class="card--img" src="assets/img/posts/Etiquetas-semánticas-HTML.png"
+                        alt="Etiquetas-semánticas-HTML">
+                    <div class="section1_container2_card">
+                        <!-- CONTENEDOR DE CADA CARTA DE LA MITAD DERECHA DEL SECTION1 -->
+                        <p class="section1_container2_card--date">24 Noviembre, 2022</p>
+                        <h3 class="section1_container2_card--title">Etiquetas semánticas</h3>
+                        <div class="foot">
+                            <img class="card_pie--img" src="assets/img/logos/adl.png" alt="Logo Desafío Latam">
+                            <p class="card_pie--text">Desafío Latam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section1_container2--card">
+                    <img class="card--img" src="assets/img/posts/reactComponents.png" alt="reactComponents">
+                    <div class="section1_container2_card">
+                        <!-- CONTENEDOR DE CADA CARTA DE LA MITAD DERECHA DEL SECTION1 -->
+                        <p class="section1_container2_card--date">24 Noviembre, 2022</p>
+                        <h3 class="section1_container2_card--title">Componentes react</h3>
+                        <div class="foot">
+                            <img class="card_pie--img" src="assets/img/logos/adl.png" alt="Logo Desafío Latam">
+                            <p class="card_pie--text">Desafío Latam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr><br>
+    </section>
+    <section class="section2">
+        <div class="populares"> <!-- MODIFICADOR PARA TODOS LOS ELEMENTOS COMBINADOS -->
+            <h2 class="section2--title">Populares</h2>
+            <div class="container2--cards">
+                <div class="card--populares">
+                    <div class="section2--container">
+                        <div class="section2_container--card">
+                            <img class="section2_card--img" src="assets/img/posts/vue-components.png"
+                                alt="vue-components">
+                            <p class="section2_container_card--date">24 Noviembre, 2022</p>
+                            <h3 class="section2_container_card--text">Componentes Vue</h3>
+                            <div class="foot">
+                                <img class="card_pie--img" src="assets/img/logos/adl.png" alt="adl">
+                                <p class="card_pie--text">Desafío Latam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2--container">
+                    <div class="section2_container--card">
+                        <img class="section2_card--img" src="assets/img/posts/api-js.png" alt="api-js">
+                        <p class="section2_container_card--date">24 Noviembre, 2022</p>
+                        <h3 class="section2_container_card--text">Consumo de API con Javascript</h3>
+                        <div class="foot">
+                            <img class="card_pie--img" src="assets/img/logos/adl.png" alt="adl">
+                            <p class="card_pie--text">Desafío Latam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2--container">
+                    <div class="section2_container--card">
+                        <img class="section2_card--img" src="assets/img/posts/sass.jpg" alt="sass">
+                        <p class="section2_container_card--date">24 Noviembre, 2022</p>
+                        <h3 class="section2_container_card--text">CSS reutilizable con Sass</h3>
+                        <div class="foot">
+                            <img class="card_pie--img" src="assets/img/logos/adl.png" alt="adl">
+                            <p class="card_pie--text">Desafío Latam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2--container">
+                    <div class="section2_container--card">
+                        <img class="section2_card--img" src="assets/img/posts/bootstrap.png" alt="bootstrap">
+                        <p class="section2_container_card--date">24 Noviembre, 2022</p>
+                        <h3 class="section2_container_card--text">Componentes Bootstrap</h3>
+                        <div class="foot">
+                            <img class="card_pie--img" src="assets/img/logos/adl.png" alt="adl">
+                            <p class="card_pie--text">Desafío Latam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="caterogias"> <!-- MODIFICADOR PARA TODOS LOS BANNER DE LAS HERRAMIENTAS -->
+            <h2 class="categorias--titulo">Categorías</h2>
+            <div class="categorias--banner categorias--html"> <!-- DOBLE CLASE PARA DISTINTAS MODIFICACIONES EN CSS -->
+                <img class="categorias_banner--img" src="assets/img/logos/html.png" alt="html">
+                <p class="categorias_banner--text">HTML</p>
+            </div>
+            <div class="categorias--banner categorias--js">
+                <img class="categorias_banner--img" src="assets/img/logos/js.png" alt="js">
+                <p class="categorias_banner--text">JS</p>
+            </div>
+            <div class="categorias--banner categorias--css">
+                <img class="categorias_banner--img" src="assets/img/logos/css.png" alt="css">
+                <p class="categorias_banner--text">CSS</p>
+            </div>
+            <div class="categorias--banner categorias--react">
+                <img class="categorias_banner--img" src="assets/img/logos/react.png" alt="react">
+                <p class="categorias_banner--text">REACT</p>
+            </div>
+            <div class="categorias--banner categorias--vue">
+                <img class="categorias_banner--img" src="assets/img/logos/vue.png" alt="vue">
+                <p class="categorias_banner--text">VUE</p>
+            </div>
+            <div class="categorias--banner categorias--bootstrap">
+                <img class="categorias_banner--img" src="assets/img/logos/bootstrap-logo.png" alt="bootstrap">
+                <p class="categorias_banner--text">BOOTSTRAP</p>
+            </div>
+            <br>
+            <a class="categorias--link">Ver todas las categorías ></a>
+        </div>
+    </section>
+    <section class="section2_registro">
+        <div class="container">
+            <div class="contenedor_registro">
+                <div class="registro">
+                    <h2 class="registro_texto">Mantente actualizado sobre el Desarrollo Front End</h2>
+                    <input class="registro_input" type="text">
+                    <button class="registro_boton" type="button">Suscríbete </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <hr><br>
+    <footer class="footer"> <!-- CLASE FOOTER PARA PODER MODIFICAR AMBOS ELEMENTOS "LOGO Y TEXTO" -->
+        <div class="logo">
+            <img class="logo--img" src="assets/img/logos/adl.png" alt="logo">
+            <h1 class="logo--text">Blog FrontEnd</h1>
+        </div>
+        <p class="footer--text">Desafío Latam -2023</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+@use "../base/containers";
+
+.contenedor_registro {
+    width: 100%;
+    height: 150px;
+    background-color: #63AF2B;
+    border-radius: 20px;
+    color: white;    
+}
+
+.registro {
+    margin-left: 10%;
+    padding-top: 30px    
+}
+
+.registro_texto {
+    font-size: 20px;
+    max-width: 50%;
+}
+
+.registro_input {
+    width: 50%;
+}
+
+.registro_boton {
+    margin-left: 50px;
+    font-weight: bolder;
+    border-radius: 5px;
+    color: gray;
+}
+
+.titulo_registro {
+    text-align: center;    
+}
+
+.registro_input {
+    width: 100%;
+    background-color: white;
+    border: 5px grey;
+}
+
+.boton_submit {
+    background-color: #63AF2B;
+    color: white;
+    
+    width: 100%; 
+    font-weight: bolder;  
+}
+
+.boton_registro--google {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+}
+
+.boton_submit--google {
+    width: 100%;
+}
+
+.logo_registro {
+    width: 30px;
+}
+
+.texto_registro_google {
+    font-weight: bolder;
+    color: black;
+    margin-top: 15px;
+}
+
+.registro_cuenta_creada {
+    display: flex;  
+    align-items: center;  
+    justify-content: center;
+}
+
+.cuenta_creada_text {
+    margin-top: 15px;
+    margin-right: 10px; 
+}
